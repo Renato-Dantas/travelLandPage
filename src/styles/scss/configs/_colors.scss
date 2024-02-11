@@ -1,0 +1,21 @@
+// Dark and Grey colors
+$c-black: #191825;
+$c-black75: rgba(25, 24, 37, 0.75);
+$c-black50: rgba(25, 24, 37, 0.5);
+$c-black25: rgba(25, 24, 37, 0.25);
+$c-black10: rgba(25, 24, 37, 0.1);
+$c-black05: rgba(25, 24, 37, 0.05);
+
+// General Colors
+$c-red: #ff5722;
+$c-blue: #0061ff;
+$c-aqua: #60efff;
+$c-purple: #5d50c6;
+$c-white: #eeeeee;
+$c-pink: #f85e9f;
+$c-yellow: #facd49;
+$c-yellow08: rgba(250, 205, 73, 0.08);
+
+// Gradients
+$grd-blue: linear-gradient($c-blue, $c-aqua);
+$grd-purple: linear-gradient(#40c9ff, #e81cff);

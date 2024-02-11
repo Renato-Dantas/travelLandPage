@@ -1,0 +1,72 @@
+{
+  "menus": {
+    "item1": {
+      "text": "Home",
+      "submenus": {
+        "sub1": {
+          "text": "Who We Are",
+          "href": "#"
+        },
+        "sub2": {
+          "text": "Our People",
+          "href": "#"
+        },
+        "sub3": {
+          "text": "Join Our Team",
+          "href": "#"
+        }
+      }
+    },
+    "item2": {
+      "text": "Discover",
+      "submenus": {
+        "sub1": {
+          "text": "Programs",
+          "href": "#"
+        },
+        "sub2": {
+          "text": "Travel with us",
+          "href": "#"
+        },
+        "sub3": {
+          "text": "Best destinations",
+          "href": "#"
+        }
+      }
+    },
+    "item3": {
+      "text": "Special Deals",
+      "submenus": {
+        "sub1": {
+          "text": "Offers",
+          "href": "#"
+        },
+        "sub2": {
+          "text": "Try a Combo!",
+          "href": "#"
+        },
+        "sub3": {
+          "text": "Seasons offers",
+          "href": "#"
+        }
+      }
+    },
+    "item4": {
+      "text": "Contact",
+      "submenus": {
+        "sub1": {
+          "text": "Support Team",
+          "href": "#"
+        },
+        "sub2": {
+          "text": "Give a feedback",
+          "href": "#"
+        },
+        "sub3": {
+          "text": "Complains",
+          "href": "#"
+        }
+      }
+    }
+  }
+}
