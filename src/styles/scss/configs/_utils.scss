@@ -1,0 +1,52 @@
+// Shadown
+$shadown: 3px 12px 12px $c-black05;
+$shadown-hover: 0 5px 5px $c-black50;
+$main-transition: all ease-in-out 0.3s;
+
+// Transitions
+%shadown {
+  box-shadow: $shadown;
+}
+
+%shadown-hover {
+  box-shadow: $shadown-hover;
+}
+
+%main-transition {
+  transition: $main-transition;
+}
+
+%white-btn,
+%purple-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  @extend %shadown;
+  @extend %main-transition;
+
+  &:hover {
+    @extend %shadown-hover;
+  }
+}
+
+%white-btn {
+  color: $c-black;
+  background-color: transparent;
+}
+
+%purple-btn {
+  color: $c-white;
+  background-color: $c-purple;
+}
+
+%full-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

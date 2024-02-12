@@ -1,16 +1,14 @@
-import { ReactNode } from "react";
+import { childrenProps } from "../../interfaces";
 import Logo from "../Logo/index";
 import Login from "../Login";
 
-interface HeaderProps {
-  children: ReactNode;
-}
-
-const Header = ({ children }: HeaderProps) => {
+const Header = ({ children }: childrenProps) => {
   return (
     <header className="header">
       <div className="header-wrapper">
-        <Logo />
+        <a href="/">
+          <Logo />
+        </a>
         {children}
         <Login />
       </div>
